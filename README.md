@@ -1,4 +1,4 @@
-# swe2018
+# ucrswe2018.com
 UCR SWE's updated website, draft. Formerly **[this](http://ucrswe.weebly.com/)**.
 
 # Languages
@@ -6,6 +6,7 @@ UCR SWE's updated website, draft. Formerly **[this](http://ucrswe.weebly.com/)**
 - CSS
 
 # Goals/Comments
-- Events and Contact pages remaining
+- Set up layouts for listed pages
+- Add CSS animations
 
-**Project Started:** 7-2-18 | **Last Updated:** 10-13-18
+**Project Started:** 7-2-18 | **Last Updated:** 7-4-18
