@@ -129,6 +129,7 @@
 				padding-bottom: 0vh;
 				
 				background-position: left top;
+				background-size: 100% 22vh;
 			}
 			
 			.banner_title {
@@ -159,15 +160,20 @@
 			}
 			
 			#banner_officer {
-				height: 25vh;
+				height: 22vh;
+				background-size: contain;
 			}
 			
 			#banner_events {
-				height: 25vh;
+				height: 22vh;
 			}
 			
 			#banner_sponsors {
-				height: 25vh;
+				height: 22vh;
+			}
+			
+			#banner_contact {
+				height: 22vh;
 			}
 			
 		}
@@ -520,7 +526,7 @@
 		min-height: 13vw;
 		max-height: 13vw;
 		
-		border-radius: 5000000000px;
+		border-radius: 50%;
 		opacity: 0.825;
 		
 		-webkit-transition: all 1s;
@@ -620,6 +626,7 @@
 		}
 		
 		#officer_table table, td {
+			text-align: center;
 			display: inline;
 		}
 		
