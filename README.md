@@ -8,4 +8,4 @@ SWE-UCR's updated website, draft. Formerly **[this](http://ucrswe.weebly.com/)**
 # Goals/Comments
 - Event page
 
-**Project Started:** 7-2-18 | **Last Updated:** 10-19-18
+**Project Started:** 7-2-18 | **Last Updated:** 10-22-18
