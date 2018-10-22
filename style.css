@@ -497,6 +497,7 @@
 	}
 	
 	#event_table p {
+		margin-top: -5px;
 		font-size:1.35em;
 		color:#545759;
 	}
@@ -506,7 +507,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		
-		margin-top: -50px;
+		margin-top: -30px;
 		
 		
 		color: #545759;
@@ -582,6 +583,10 @@
 	@media only screen and (max-width: 800px) {
 		#event_table {
 			display: row;
+		}
+		
+		#event_table p {
+			font-size: 1.155em;
 		}
 		
 		#event_table table {
