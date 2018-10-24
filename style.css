@@ -116,7 +116,7 @@
 			background-image: url('./images/banners/contact_blur.jpg');
 		}
 		
-		@media only screen and (max-width: 800px) {
+		@media only screen and (max-width: 1024px) {
 			hr {
 				border: 0;
 				margin-bottom: 0vh;
@@ -128,8 +128,8 @@
 			.banner {
 				padding-bottom: 0vh;
 				
-				background-position: left top;
-				background-size: 100% 22vh;
+				background-position: center top;
+				background-size: auto 100vw;
 			}
 			
 			.banner_title {
@@ -154,26 +154,46 @@
 			
 			
 			#banner_home {
-				background-position: left center;
-				
 				height: 100vh;
 			}
 			
 			#banner_officer {
-				height: 22vh;
-				background-size: auto 100%;
+				height: 25vh;
 			}
 			
 			#banner_events {
-				height: 22vh;
+				height: 25vh;
 			}
 			
 			#banner_sponsors {
-				height: 22vh;
+				height: 25vh;
 			}
 			
 			#banner_contact {
-				height: 22vh;
+				height: 25vh;
+			}
+			
+		}
+		
+		@media only screen and (orientation: landscape) {
+			.banner {
+				background-size: center center;
+			}
+			
+			#banner_officer {
+				height: 40vh;
+			}
+			
+			#banner_events {
+				height: 40vh;
+			}
+			
+			#banner_sponsors {
+				height: 40vh;
+			}
+			
+			#banner_contact {
+				height: 40vh;
 			}
 			
 		}
@@ -262,7 +282,7 @@
 			width: 100%;
 		}
 		
-		@media only screen and (max-width: 800px) {
+		@media only screen and (max-width: 1024px) {
 			.nav_bar {
 				overflow-y: visible;
 				
@@ -399,7 +419,7 @@
 			color: #DBC554;
 		}
 		
-		@media only screen and (max-width: 800px) {
+		@media only screen and (max-width: 1024px) {
 			.page_title {
 				padding: 3vh 0vw;
 				
@@ -472,7 +492,7 @@
 		opacity: 1;
 	}
 	
-	@media only screen and (max-width: 800px) {
+	@media only screen and (max-width: 1024px) {
 		#home_desc p {
 			font-size: 1.155em;
 			margin: 0vh 5vw;
@@ -580,7 +600,7 @@
 		color: #DBC554;
 	}
 	
-	@media only screen and (max-width: 800px) {
+	@media only screen and (max-width: 1024px) {
 		#event_table {
 			display: row;
 		}
@@ -707,7 +727,7 @@
 		color: #DBC554;
 	}
 		
-	@media only screen and (max-width: 1000px) {
+	@media only screen and (max-width: 1024px) {
 
 		#officer_table {
 			margin: 0;
@@ -736,7 +756,7 @@
 		}
 	}
 	
-	@media only screen and (max-width: 650px) {
+	@media only screen and (max-width: 480px) {
 		#officer_table {
 			overflow-x: hidden;
 		}
@@ -778,7 +798,7 @@
 	
 /*--start CALENDAR--*/
 
-	@media only screen and (max-width: 800px) {
+	@media only screen and (max-width: 1024px) {
 		#involvement_calendar {
 			margin: 0vh 5vw;
 		}
@@ -813,7 +833,7 @@
 		width: 25%;
 	}
 	
-	@media only screen and (max-width: 800px) {
+	@media only screen and (max-width: 1024px) {
 		#sponsor_page p {
 			font-size: 1.155em;
 			margin: 0vh 5vw;
