@@ -282,6 +282,11 @@ hr {
   display: block;
 }
 
+.dropdown:focus,
+.dropdown-content {
+  display: block;
+}
+
 .dropdown-content .nav_sec {
   padding: 0;
   margin: 0;
